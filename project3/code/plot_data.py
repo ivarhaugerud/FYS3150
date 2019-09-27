@@ -77,7 +77,6 @@ plt.legend(loc="best", fontsize=12)
 plt.show()
 """
 #CONSERVATION OF ENERGY AND ANGULAR MOMENTUM
-"""
 plt.figure(2)
 types_energy = ["total", "kinetic", "potential", "ang_mom"]
 energy_VV = get_data("data/sun_at_rest_VV_energy.txt", types_energy)
@@ -94,10 +93,9 @@ plt.legend(loc="best", fontsize=12)
 plt.xlabel("time [years]")
 plt.ylabel(r"absolute relative deviation from start")
 plt.yscale("log")
-plt.savefig("../figures/deviation_E_L.pdf", bbox_inches="tight")
-os.system('pdfcrop %s %s &> /dev/null &'%("../figures/deviation_E_L.pdf", "../figures/deviation_E_L.pdf"))
+#plt.savefig("../figures/deviation_E_L.pdf", bbox_inches="tight")
+#os.system('pdfcrop %s %s &> /dev/null &'%("../figures/deviation_E_L.pdf", "../figures/deviation_E_L.pdf"))
 plt.show()
-"""
 #FINAL 3D PLOT
 """
 import matplotlib as mpl

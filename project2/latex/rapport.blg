@@ -1,0 +1,47 @@
+This is BibTeX, Version 0.99d (TeX Live 2017)
+Capacity: max_strings=100000, hash_size=100000, hash_prime=85009
+The top-level auxiliary file: rapport.aux
+The style file: plain.bst
+Database file #1: rapportNotes.bib
+Database file #2: citations.bib.bib
+You've used 4 entries,
+            2118 wiz_defined-function locations,
+            527 strings with 4801 characters,
+and the built_in function-call counts, 1223 in all, are:
+= -- 124
+> -- 39
+< -- 1
++ -- 16
+- -- 12
+* -- 73
+:= -- 206
+add.period$ -- 13
+call.type$ -- 4
+change.case$ -- 18
+chr.to.int$ -- 0
+cite$ -- 4
+duplicate$ -- 47
+empty$ -- 104
+format.name$ -- 12
+if$ -- 260
+int.to.chr$ -- 0
+int.to.str$ -- 4
+missing$ -- 3
+newline$ -- 24
+num.names$ -- 8
+pop$ -- 19
+preamble$ -- 1
+purify$ -- 14
+quote$ -- 0
+skip$ -- 35
+stack$ -- 0
+substring$ -- 90
+swap$ -- 11
+text.length$ -- 1
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 16
+warning$ -- 0
+while$ -- 12
+width$ -- 5
+write$ -- 47

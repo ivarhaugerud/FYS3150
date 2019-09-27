@@ -1,0 +1,28 @@
+\begin{thebibliography}{1}
+
+\bibitem{hjorten}
+Morten Hjorth-Jensen.
+\newblock Computational physics, lecture notes fall 2015.
+\newblock {\em Department of Physics, University of Oslo}, page 217, 2015.
+
+\bibitem{project1}
+{I.S. Haugerud and C. Glittum}.
+\newblock {Solving the 1D Poisson equation}.
+\newblock \url{https://github.uio.no/cecilgl/FYS4150/tree/master/project1},
+  2018.
+\newblock [Online; accessed 20-September-2018].
+
+\bibitem{Q_DOTS}
+H.~Y. {Ram{\'{\i}}rez}, J.~{Fl{\'o}rez}, and {\'A}.~S. {Camacho}.
+\newblock {Efficient control of Coulomb enhanced second harmonic generation
+  from excitonic transitions in quantum dot ensembles}.
+\newblock {\em Physical Chemistry Chemical Physics (Incorporating Faraday
+  Transactions)}, 17:23938--23946, 2015.
+
+\bibitem{PhysRevA.48.3561}
+M.~Taut.
+\newblock Two electrons in an external oscillator potential: Particular
+  analytic solutions of a coulomb correlation problem.
+\newblock {\em Phys. Rev. A}, 48:3561--3566, Nov 1993.
+
+\end{thebibliography}

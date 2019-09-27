@@ -1,0 +1,189 @@
+\relax 
+\newlabel{FirstPage}{{}{1}{}{}{}}
+\@writefile{toc}{\contentsline {title}{The Solar System}{1}{}}
+\@writefile{toc}{\contentsline {abstract}{Abstract}{1}{}}
+\@writefile{toc}{\contentsline {section}{\numberline {I}Introduction}{1}{}}
+\citation{malthe}
+\@writefile{toc}{\contentsline {section}{\numberline {II}Theory}{2}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {A}The differential equations}{2}{}}
+\newlabel{newton}{{1}{2}{}{}{}}
+\newlabel{coupled_diff}{{4}{2}{}{}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {B}Escape velocity}{2}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {C}Constants of motion}{2}{}}
+\newlabel{const_mot}{{II\tmspace  +\thinmuskip {.1667em}C}{2}{}{}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {D}Generalization of Newton's gravitational law}{2}{}}
+\newlabel{change_beta_section}{{II\tmspace  +\thinmuskip {.1667em}D}{2}{}{}{}}
+\newlabel{newton_betta}{{10}{2}{}{}{}}
+\newlabel{eq: beta_force}{{11}{2}{}{}{}}
+\citation{einstein}
+\citation{project1}
+\@writefile{lof}{\contentsline {figure}{\numberline {1}{\ignorespaces The Sun and Earth with the generalized coordinates $r$ and $\theta $. The Sun is assumed to be at rest at the origin.}}{3}{}}
+\newlabel{fig: Sun-Earth-fig}{{1}{3}{}{}{}}
+\newlabel{eq: effective_potential}{{16}{3}{}{}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {E}Relativistic corrections to Newton's gravitational law}{3}{}}
+\newlabel{GR}{{II\tmspace  +\thinmuskip {.1667em}E}{3}{}{}{}}
+\newlabel{GR_force}{{18}{3}{}{}{}}
+\@writefile{toc}{\contentsline {section}{\numberline {III}Algorithms}{3}{}}
+\newlabel{eq: Taylor}{{25}{3}{}{}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {A}Forward Euler}{4}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {B}Velocity Verlet}{4}{}}
+\@writefile{toc}{\contentsline {section}{\numberline {IV}Method}{4}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {A}Sun at rest}{4}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {B}Escape velocity}{4}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {C}Constants of motion}{5}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {D}Jupiter's effect on Earth's orbit}{5}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {E}Altering Newton's gravitational law}{5}{}}
+\newlabel{1@xvr}{{}{5}}
+\newlabel{1@vr}{{}{5}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {F}Relativistic corrections to Newton's gravitational law}{5}{}}
+\citation{Squires}
+\citation{Squires}
+\@writefile{toc}{\contentsline {subsection}{\numberline {G}Object orientation and optimization}{6}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {2}{\ignorespaces Position of Earth and Sun over $10$ years with Sun at rest, and the Earth with an initial velocity of $2\pi $, for $N=10^{7}$ data points using the velocity Verlet algorithm. We can clearly see that this initial velocity, with the sun at rest, produces a circular orbit.}}{6}{}}
+\newlabel{fig:orbit_Sun_Earth}{{2}{6}{}{}{}}
+\@writefile{toc}{\contentsline {section}{\numberline {V}Results}{6}{}}
+\newlabel{2@xvr}{{}{6}}
+\newlabel{2@vr}{{}{6}}
+\newlabel{3@xvr}{{}{6}}
+\newlabel{3@vr}{{}{6}}
+\citation{Squires}
+\citation{Squires}
+\@writefile{lof}{\contentsline {figure}{\numberline {3}{\ignorespaces Distance between initial and final position for one year of Earth's orbit as a function of step size using both velocity Verlet and forward Euler. The slope of each algorithm is given in the legend, with it's uncertainty calculated from the least squares method \cite  {Squires}. The deviation in position scales almost perfectly linearly with the number of data points.}}{7}{}}
+\newlabel{fig:deviation_vs_n}{{3}{7}{}{}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {4}{\ignorespaces Absolute relative difference between initial and later value for total angular momentum and total energy of the system for velocity Verlet and forward Euler. In the legend $E$ is energy and $L$ is angular momentum, where the induces $_{vv}$ and $_{fe}$ refers respectively to the velocity Verlet and forward Euler algorithm. We see that velocity Verlet conserves angular momentum and energy to a precision exceeding all practical purposes, while FE does not. This was calculated with $N=10^{8}$ data points.}}{7}{}}
+\newlabel{fig:deviation_E_L}{{4}{7}{}{}{}}
+\newlabel{4@xvr}{{}{7}}
+\newlabel{4@vr}{{}{7}}
+\newlabel{5@xvr}{{}{7}}
+\newlabel{5@vr}{{}{7}}
+\@writefile{lof}{\contentsline {figure}{\numberline {5}{\ignorespaces Time used by the velocity Verlet and forward Euler algorithm to simulate the Earth-Sun system as a function of number of data points. The slope of each algorithm is given in the legend, with it's uncertainty calculated from the least squares method \cite  {Squires}. The time used for small number of data points was not included in the calculation of the slope due their unstable behaviour. The blue dots are the measurements using forward Euler, and the purple dots are the measurements using velocity Verlet. We clearly see the linear relationship between computational time and number of data points.}}{7}{}}
+\newlabel{fig:time_relation}{{5}{7}{}{}{}}
+\newlabel{6@xvr}{{}{7}}
+\newlabel{6@vr}{{}{7}}
+\newlabel{7@xvr}{{}{7}}
+\newlabel{7@vr}{{}{7}}
+\newlabel{8@xvr}{{}{7}}
+\newlabel{8@vr}{{}{7}}
+\@writefile{lof}{\contentsline {figure}{\numberline {6}{\ignorespaces Radial distance between the Sun and the Earth over $50$ years for different values of the exponent in Newton's gravitational law \textup  {\hbox {\mathsurround \z@ \normalfont  (\ignorespaces \ref  {newton_betta}\unskip \@@italiccorr )}}. The results were found using velocity Verlet algorithm for $10^7$ data points. The values used for $\beta $ was selected to show the transition from stable to unstable orbit. We see how the orbit becomes more unstable as $\beta $ is approaching $3$, and the orbit finally diverges when $\beta =3$.}}{8}{}}
+\newlabel{fig:different_exp}{{6}{8}{}{}{}}
+\newlabel{9@xvr}{{}{8}}
+\newlabel{9@vr}{{}{8}}
+\newlabel{10@xvr}{{}{8}}
+\newlabel{10@vr}{{}{8}}
+\newlabel{11@xvr}{{}{8}}
+\newlabel{11@vr}{{}{8}}
+\newlabel{12@xvr}{{}{8}}
+\newlabel{12@vr}{{}{8}}
+\newlabel{13@xvr}{{}{8}}
+\newlabel{13@vr}{{}{8}}
+\newlabel{14@xvr}{{}{8}}
+\newlabel{14@vr}{{}{8}}
+\newlabel{15@xvr}{{}{8}}
+\newlabel{15@vr}{{}{8}}
+\newlabel{16@xvr}{{}{8}}
+\newlabel{16@vr}{{}{8}}
+\newlabel{19@xvr}{{}{8}}
+\newlabel{19@vr}{{}{8}}
+\@writefile{toc}{\contentsline {section}{\numberline {VI}Discussion}{8}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {A}Velocity Verlet vs forward Euler}{8}{}}
+\newlabel{20@xvr}{{}{8}}
+\newlabel{20@vr}{{}{8}}
+\newlabel{21@xvr}{{}{8}}
+\newlabel{21@vr}{{}{8}}
+\newlabel{22@xvr}{{}{8}}
+\newlabel{22@vr}{{}{8}}
+\newlabel{23@xvr}{{}{8}}
+\newlabel{23@vr}{{}{8}}
+\@writefile{lof}{\contentsline {figure}{\numberline {7}{\ignorespaces The effective potential $V_{\mathrm  {eff}}$ plotted for different values of $\beta $. The labels on the y-axes are common for all the three plots in a row, while the labels on the x-axes are common for the two plots in the corresponding column. The unit $E_\oplus $ is the absolute value of the energy of the Earth in it's stable orbit for ordinary gravitational force. We see how the scale of the effective potential approaches zero as $\beta \rightarrow 3$, and is exactly equal for $\beta =3$, and has inverted it's shape once $\beta >3$. For $\beta >3$ we have an unstable equilibrium at $1$AU.}}{9}{}}
+\newlabel{fig: change_beta}{{7}{9}{}{}{}}
+\newlabel{24@xvr}{{}{9}}
+\newlabel{24@vr}{{}{9}}
+\newlabel{25@xvr}{{}{9}}
+\newlabel{25@vr}{{}{9}}
+\newlabel{26@xvr}{{}{9}}
+\newlabel{26@vr}{{}{9}}
+\@writefile{lof}{\contentsline {figure}{\numberline {8}{\ignorespaces Radial distance of the Earth as a function of time for different values of the initial velocity, with an initial distance of $1$AU away from the sun. Different velocities were run over different time periods to see if the orbit was closed or not. All runs had the same time step of $2.7$ minutes. The velocities in the legend is given in AU/years. We can tell that the earth needs a velocity of $8.8851(5)$ in order to escape.}}{10}{}}
+\newlabel{fig:escape_velocity}{{8}{10}{}{}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {9}{\ignorespaces The radial distance between the Earth and the Sun is calculated with only these two objects present. We then repeat the calculation including Jupiter in the system. We then calculate the change in position that occurs when Jupiter is included. We do this for three different masses for Jupiter, where it is increased by a factor of $1$, $10$ and $100$. This change in distance is shown over $24$ years. We see that the change in distance is a sum of two sines with very close to equal frequency, resulting in the beating effect we observe here.}}{10}{}}
+\newlabel{fig:radial_Jupiter}{{9}{10}{}{}{}}
+\newlabel{27@xvr}{{}{10}}
+\newlabel{27@vr}{{}{10}}
+\@writefile{lof}{\contentsline {figure}{\numberline {10}{\ignorespaces The position of the Sun, Earth and Jupiter in the $x-y$ plane over $12$ years with the mass of Jupiter increased by a factor of $1000$. The Sun is the red circle in at the center, the Earth is the thin line, and Jupiter is the thick line. The color of the Earth and Jupiter shows the time evolution of the system, where $t_0$ is dark purple and $t_n$ is light yellow. The same point in time for Earth and Jupiter will have the same colour. We see that the movement of the earth goes from orbiting the Sun to orbiting Jupiter.}}{10}{}}
+\newlabel{fig:Earth_becomes_moon}{{10}{10}{}{}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {11}{\ignorespaces The radial distance to the origin of the Sun, Earth and Jupiter, with the Sun at rest, is subtracted from their respective radial distance without the Sun at rest over. This is shown over a period of $24$ years, and is displayed to see the effect of the approximation of keeping the sun fixed at the origin. The total momentum of the system is set to $0$ at the start of the simulation. System was solved using VV with $10^7$ data points.}}{10}{}}
+\newlabel{fig:effect_of_Sun_at_rest}{{11}{10}{}{}{}}
+\newlabel{28@xvr}{{}{10}}
+\newlabel{28@vr}{{}{10}}
+\@writefile{lof}{\contentsline {figure}{\numberline {12}{\ignorespaces The total absolute relative change from initial to final total energy as a function of the number of data points for the Sun-Earth-Jupiter system over $12$ years, for the VV algorithm for different masses of Jupiter. As $N$ increases the deviation get smaller, until a point where the slope changes sign.}}{11}{}}
+\newlabel{fig:conservation_energy}{{12}{11}{}{}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {13}{\ignorespaces The total absolute relative change from initial to final total angular momentum as a function of the number of data points for the Sun-Earth-Jupiter system over $12$ years, for the VV algorithm for different masses of Jupiter. Contrary to the conservation of energy (shown in figure \vref  {fig:conservation_energy}) the conservation of angular momentum gets worse as $N$ increases.}}{11}{}}
+\newlabel{18@xvr}{{}{11}}
+\newlabel{18@vr}{{}{11}}
+\newlabel{fig:change_ang_mom}{{13}{11}{}{}{}}
+\newlabel{29@xvr}{{}{11}}
+\newlabel{29@vr}{{}{11}}
+\newlabel{30@xvr}{{}{11}}
+\newlabel{30@vr}{{}{11}}
+\@writefile{lof}{\contentsline {figure}{\numberline {14}{\ignorespaces The absolute change in final position of the earth as a function of the number of data points for the Sun-Earth-Jupiter system over $12$ years, for the VV and FE algorithm. Both algorithms produces a more precise result as the number of data points increases. FE converges to a constant deviation earlier, and for a larger value than VV.}}{11}{}}
+\newlabel{fig:change_position}{{14}{11}{}{}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {15}{\ignorespaces The absolute relative change in final position of the earth as a function of the number of data points for the Sun-Earth-Jupiter system over $12$ years, for the VV algorithm for different masses of Jupiter. Both algorithms produces a more precise result as the number of data points increases, up until around $N=10^6$, where the slope goes towards zero.}}{11}{}}
+\newlabel{fig:change_position_MJ}{{15}{11}{}{}{}}
+\newlabel{31@xvr}{{}{11}}
+\newlabel{31@vr}{{}{11}}
+\@writefile{lof}{\contentsline {figure}{\numberline {16}{\ignorespaces Movement of many celestial objects, given in the legend, over $100$ years in three dimensions using velocity Verlet with $10^8$ data points. With this data we will know where all the objects will be in the coming century. The initial position and initial values were collected from NASA.}}{12}{}}
+\newlabel{fig:total_plot}{{16}{12}{}{}{}}
+\newlabel{32@xvr}{{}{12}}
+\newlabel{32@vr}{{}{12}}
+\newlabel{33@xvr}{{}{12}}
+\newlabel{33@vr}{{}{12}}
+\newlabel{34@xvr}{{}{12}}
+\newlabel{34@vr}{{}{12}}
+\newlabel{35@xvr}{{}{13}}
+\newlabel{35@vr}{{}{13}}
+\newlabel{36@xvr}{{}{13}}
+\newlabel{36@vr}{{}{13}}
+\newlabel{37@xvr}{{}{13}}
+\newlabel{37@vr}{{}{13}}
+\newlabel{38@xvr}{{}{13}}
+\newlabel{38@vr}{{}{13}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {B}Finding the escape velocity}{13}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {C}Altering Newton's gravitational law}{13}{}}
+\newlabel{39@xvr}{{}{13}}
+\newlabel{39@vr}{{}{13}}
+\newlabel{40@xvr}{{}{13}}
+\newlabel{40@vr}{{}{13}}
+\newlabel{41@xvr}{{}{13}}
+\newlabel{41@vr}{{}{13}}
+\newlabel{42@xvr}{{}{13}}
+\newlabel{42@vr}{{}{13}}
+\newlabel{43@xvr}{{}{13}}
+\newlabel{43@vr}{{}{13}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {D}The three body problem - Sun, Earth and Jupiter}{14}{}}
+\newlabel{44@xvr}{{}{14}}
+\newlabel{44@vr}{{}{14}}
+\newlabel{45@xvr}{{}{14}}
+\newlabel{45@vr}{{}{14}}
+\newlabel{46@xvr}{{}{14}}
+\newlabel{46@vr}{{}{14}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {E}Movement of all bodies}{14}{}}
+\newlabel{47@xvr}{{}{14}}
+\newlabel{47@vr}{{}{14}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {F}Relativistic correction}{15}{}}
+\@writefile{toc}{\contentsline {section}{\numberline {VII}Conclusion}{15}{}}
+\@writefile{toc}{\contentsline {section}{\numberline {VIII}Comments}{15}{}}
+\@writefile{toc}{\appendix }
+\@writefile{toc}{\contentsline {section}{\numberline {A}Generalization of Newton's gravitational law}{15}{}}
+\newlabel{eom}{{A}{15}{}{}{}}
+\newlabel{48@xvr}{{}{15}}
+\newlabel{48@vr}{{}{15}}
+\bibdata{rapportNotes,citations.bib}
+\bibcite{einstein}{{1}{}{{}}{{}}}
+\bibcite{project1}{{2}{}{{}}{{}}}
+\newlabel{eq: stationary}{{A16}{16}{}{}{}}
+\@writefile{toc}{\contentsline {section}{\numberline {}References}{16}{}}
+\bibcite{malthe}{{3}{}{{}}{{}}}
+\bibcite{Squires}{{4}{}{{}}{{}}}
+\bibstyle{plain}
+\providecommand\NAT@force@numbers{}\NAT@force@numbers
+\newlabel{LastBibItem}{{4}{17}{}{}{}}
+\newlabel{LastPage}{{}{17}{}{}{}}

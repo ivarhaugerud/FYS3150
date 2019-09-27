@@ -1,0 +1,47 @@
+\begin{thebibliography}{1}
+
+\bibitem{rapport2}
+{C. Glittum and I.S. Haugerud}.
+\newblock {Eigenvalue problems in physics: Solving the Schrödinger equation}.
+\newblock \url{https://github.uio.no/cecilgl/FYS4150/tree/master/project2},
+  2018.
+\newblock [Online; accessed 12-december-2018].
+
+\bibitem{klasmek}
+H.~{Goldstein}, C.~{Poole}, and J.~{Safko}.
+\newblock Classical mechanics.
+\newblock {\em Pearson}, 3(1):83--86, 2002.
+
+\bibitem{kvaal}
+Simen Kvaal.
+\newblock {Harmonic} oscillator eigenfunction expansions, quantum dots, and
+  effective interactions.
+\newblock {\em Physical Review B}, 80:045321, 2009.
+
+\bibitem{Hjorten}
+{M. Hjorth-Jensen}.
+\newblock {Quantum Monte Carlo of confined electrons}.
+\newblock
+  \url{https://github.com/CompPhysics/ComputationalPhysics/tree/master/doc/Projects/2018/Project5/QuantumMonteCarlo},
+  2018.
+\newblock [Online; accessed 12-december-2018].
+
+\bibitem{Q_DOTS}
+H.~Y. {Ram{\'{\i}}rez}, J.~{Fl{\'o}rez}, and {\'A}.~S. {Camacho}.
+\newblock {Efficient control of Coulomb enhanced second harmonic generation
+  from excitonic transitions in quantum dot ensembles}.
+\newblock {\em Physical Chemistry Chemical Physics (Incorporating Faraday
+  Transactions)}, 17:23938--23946, 2015.
+
+\bibitem{squires}
+G.~L. Squires.
+\newblock Practical physics.
+\newblock {\em Cambride University Press}, 4(5):29--52, 2001.
+
+\bibitem{taut}
+M.~Taut.
+\newblock Two electrons in an external oscillator potential: Particular
+  analytic solutions of a coulomb correlation problem.
+\newblock {\em Phys. Rev. A}, 48:3561--3566, Nov 1993.
+
+\end{thebibliography}

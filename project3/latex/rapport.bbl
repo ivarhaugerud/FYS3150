@@ -1,0 +1,25 @@
+\begin{thebibliography}{1}
+
+\bibitem{einstein}
+Albert Einstein.
+\newblock The foundation of the general theory of relativity.
+\newblock {\em Annalen der Physik. 49 (7)}, page 769–822, 1916.
+
+\bibitem{project1}
+{I.S. Haugerud and C. Glittum}.
+\newblock {Solving the 1D Poisson equation}.
+\newblock \url{https://github.uio.no/cecilgl/FYS4150/tree/master/project1},
+  2018.
+\newblock [Online; accessed 20-September-2018].
+
+\bibitem{malthe}
+Anders Malthe-Sørenssen.
+\newblock {\em Elementary Mechanics Using Python}.
+\newblock Springer International Publishing, 2015.
+
+\bibitem{Squires}
+G.~L. Squires.
+\newblock Practical physics.
+\newblock {\em Cambride Univserity Press}, 4(5):29--52, 2001.
+
+\end{thebibliography}

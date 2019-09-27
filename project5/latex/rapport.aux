@@ -1,0 +1,165 @@
+\relax 
+\citation{Q_DOTS}
+\citation{rapport2}
+\citation{taut}
+\newlabel{FirstPage}{{}{1}{}{}{}}
+\@writefile{toc}{\contentsline {title}{Variational Monte Carlo of electrons in a quantum dot}{1}{}}
+\@writefile{toc}{\contentsline {abstract}{Abstract}{1}{}}
+\@writefile{toc}{\contentsline {section}{\numberline {I}Introduction}{1}{}}
+\@writefile{toc}{\contentsline {section}{\numberline {II}Theory}{1}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {A}Harmonic oscillator}{1}{}}
+\newlabel{hamil_non_interact}{{1}{1}{}{}{}}
+\newlabel{anal_non_interaction_wf}{{2}{1}{}{}{}}
+\citation{klasmek}
+\newlabel{hamil_interact}{{3}{2}{}{}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {B}The variational method}{2}{}}
+\newlabel{1@xvr}{{}{2}}
+\newlabel{1@vr}{{}{2}}
+\newlabel{eq:variational_method}{{4}{2}{}{}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {C}Virial theorem}{2}{}}
+\newlabel{sec:virial}{{II\tmspace  +\thinmuskip {.1667em}C}{2}{}{}{}}
+\newlabel{eq:general_virial}{{5}{2}{}{}{}}
+\newlabel{viral}{{6}{2}{}{}{}}
+\@writefile{toc}{\contentsline {section}{\numberline {III}Algorithm}{2}{}}
+\newlabel{sec:algorithms}{{III}{2}{}{}{}}
+\newlabel{eq:E_local}{{7}{2}{}{}{}}
+\citation{kvaal}
+\citation{kvaal}
+\citation{squires}
+\@writefile{toc}{\contentsline {section}{\numberline {IV}Method}{3}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {A}Benchmarking the algorithm}{3}{}}
+\newlabel{trial_1}{{8}{3}{}{}{}}
+\newlabel{2@xvr}{{}{3}}
+\newlabel{2@vr}{{}{3}}
+\newlabel{energy_0}{{9}{3}{}{}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {B}Trial wave functions and local energies}{3}{}}
+\newlabel{3@xvr}{{}{3}}
+\newlabel{3@vr}{{}{3}}
+\newlabel{energy_1}{{10}{3}{}{}{}}
+\newlabel{trial_2}{{11}{3}{}{}{}}
+\newlabel{4@xvr}{{}{3}}
+\newlabel{4@vr}{{}{3}}
+\newlabel{energy_2}{{12}{3}{}{}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {C}Stability and equilibration}{3}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {D}Finding the optimal step length}{3}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {E}Optimizing the variational parameter}{4}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {F}Changing the characteristic frequency}{4}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {G}Virial theorem}{4}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {H}Units}{4}{}}
+\@writefile{toc}{\contentsline {section}{\numberline {V}Results}{4}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {A}Stability and equilibration}{4}{}}
+\citation{squires}
+\citation{squires}
+\@writefile{lof}{\contentsline {figure}{\numberline {1}{\ignorespaces The expectation value of the energy is displayed as a function of the number of Monte Carlo cycles. We have done this for different values of the variational parameter $\alpha $ for the noninteracting Hamiltonian with $\Psi _{T1}$ as trial wave function. This is displayed to study the stabilization and equilibration time of the Metropolis algorithm, and it's dependence on the variational parameter $\alpha $. We observe the lowest energy, and an instantaneous stabilization, for $\alpha =1.00$, while all other values produce a larger energy.}}{5}{}}
+\newlabel{fig:stability_energy_E0}{{1}{5}{}{}{}}
+\newlabel{5@xvr}{{}{5}}
+\newlabel{5@vr}{{}{5}}
+\newlabel{6@xvr}{{}{5}}
+\newlabel{6@vr}{{}{5}}
+\newlabel{7@xvr}{{}{5}}
+\newlabel{7@vr}{{}{5}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {B}Finding the optimal step length}{5}{}}
+\newlabel{8@xvr}{{}{5}}
+\newlabel{8@vr}{{}{5}}
+\newlabel{9@xvr}{{}{5}}
+\newlabel{9@vr}{{}{5}}
+\@writefile{lof}{\contentsline {figure}{\numberline {2}{\ignorespaces The variance in energy is displayed as a function of the number of Monte Carlo cycles. This is done for different values of the variational parameter $\alpha $ in the noninteracting case, using $\Psi _{T1}$ as trial wave function. This is displayed to study the stabilization and equilibration time of the Metropolis algorithm, and it's dependence on the variational parameter $\alpha $. We observe a variance of $0$, and an instantaneous stabilization, for $\alpha =1.00$, while all other values produce a larger variance, with a longer stabilization.}}{5}{}}
+\newlabel{fig:stability_variance_E0}{{2}{5}{}{}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {3}{\ignorespaces The expectation value of the energy is displayed as a function of the number of Monte Carlo cycles for different values of the variational parameter $\alpha $. This is done for the interacting Hamiltonian, using $\Psi _{T1}$ as trial wave function. This is displayed to study the stabilization and equilibration time of the Metropolis algorithm, and it's dependence on the variational parameter $\alpha $, when we include the electron-electron repulsion in our Hamiltonian. None of the values used for $\alpha $ gives an assertive lowest energy, and they all stabilize after around $10^5$ Monte Carlo cycles.}}{5}{}}
+\newlabel{fig:stability_energy_E1}{{3}{5}{}{}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {4}{\ignorespaces The variance in the energy is displayed as a function of the number of Monte Carlo cycles for different values of the variational parameter $\alpha $. We have used the interacting Hamiltonian with $\Psi _{T1}$ as trial wave function. This is displayed to study the stabilization and equilibration time of the Metropolis algorithm, and it's dependence on the variational parameter $\alpha $, when we include the electron-electron repulsion in our Hamiltonian. The variance behaves differently compared to the noninteracting Hamiltonian, where we now observe sudden jumps, and the equilibration time is harder to estimate. None of the values used for $\alpha $ result in zero variance.}}{6}{}}
+\newlabel{fig:stability_variance_E1}{{4}{6}{}{}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {5}{\ignorespaces The acceptance rate for different values of $\alpha $ is displayed as a function of the step length $\delta $. The black horizontal line displays the ideal value of the acceptance rate, $50\%$. The intersections with this line is used to calculate the ideal value of $\delta $ as a function of $\alpha $. The intervals of step lengths is such that we go from an acceptance rate of close $100\%$ to almost $0\%$ depending on $\alpha $. The calculations were done for the noninteracting Hamilton using $\Psi _{T1}$, and was done for more $\alpha $ values than displayed in this figure.}}{6}{}}
+\newlabel{fig:acceptence_rate}{{5}{6}{}{}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {6}{\ignorespaces The step length $\delta $ resulting in a $50\%$ acceptance rate is shown as a function of the variational parameter $\alpha $. The values were calculated from the intersection with the $50\%$ line displayed in Fig. \vref  {fig:acceptence_rate}. The calculations were done for the noninteracting Hamiltonian using the trial wave function $\Psi _{T1}$. The best fite line is calculated through the least squares method \cite  {squires} giving us $\delta (\alpha ) \approx 1.39/\sqrt  {\alpha }$, which is used throughout our calculations.}}{6}{}}
+\newlabel{11@xvr}{{}{6}}
+\newlabel{11@vr}{{}{6}}
+\newlabel{fig:ideal_step}{{6}{6}{}{}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {C}The first trial wave function $\bm  {\Psi _{T1}}$}{6}{}}
+\newlabel{12@xvr}{{}{6}}
+\newlabel{12@vr}{{}{6}}
+\newlabel{13@xvr}{{}{6}}
+\newlabel{13@vr}{{}{6}}
+\newlabel{16@xvr}{{}{6}}
+\newlabel{16@vr}{{}{6}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {D}The second trial wave function $\bm  {\Psi _{T2}}$}{6}{}}
+\newlabel{17@xvr}{{}{6}}
+\newlabel{17@vr}{{}{6}}
+\citation{taut}
+\citation{taut}
+\citation{taut}
+\@writefile{lof}{\contentsline {figure}{\numberline {7}{\ignorespaces The expectation value of the energy is displayed as a function of the variational parameter $\alpha $ for the noninteracting and interacting Hamiltonian using the trial wave function $\Psi _{T1}$. This was calculated using $10^8$ MC cycles, with a step size for $\alpha $ equal to $0.05$, which was decreased to $0.01$ around the minima. The optimal value of $\alpha $ is the one corresponding to the minimal energy, which was found to be $1.00(1)$ for the noninteracting Hamiltonian, and $0.87(1)$ for the interacting Hamiltonian.}}{7}{}}
+\newlabel{fig:energy_E0}{{7}{7}{}{}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {8}{\ignorespaces The variance of the energy is displayed as a function of the variational parameter $\alpha $ for the noninteracting and interacting Hamiltonian using the trial wave function $\Psi _{T1}$. This was calculated using $10^8$ MC cycles, with a step size for $\alpha $ equal to $0.05$, which was decreased to $0.01$ around the minima. The optimal value of $\alpha $ is the one corresponding to the minimal variance, which was found to be $1.00(1)$ for the noninteracting Hamiltonian, and $0.87(1)$ for the interacting Hamiltonian. These values are consistent with what we observed for the minimal energy, displayed in Fig. \vref  {fig:energy_E0}.}}{7}{}}
+\newlabel{15@xvr}{{}{7}}
+\newlabel{15@vr}{{}{7}}
+\newlabel{fig:variance_E0}{{8}{7}{}{}{}}
+\@writefile{lot}{\contentsline {table}{\numberline {I}{\ignorespaces The expectation value of the distance between the two electrons is displayed for different characteristic frequencies of the oscillator potential $\omega $ for the interacting and noninteracting Hamiltonian using the trial wave function $\Psi _{T1}$. We see a decrease in the expectation value of the distance as we increase the frequency of the oscillator potential. In addition we notice that the electrons are further apart when we include the interaction in the Hamiltonian. To achieve these values we used the optimal value of $\alpha $ found earlier, $\alpha =1.00$ for noninteracting, and $\alpha =0.87$ for the interacting Hamiltonian, with $10^{8}$ Monte Carlo cycles. The uncertainties are calculated from the standard deviation of the expectation values.}}{7}{}}
+\newlabel{table:omega_1}{{I}{7}{}{}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {9}{\ignorespaces The expectation value of the energy is displayed as a function of the two variational parameters $\alpha $ and $\beta $ for the interacting Hamiltonian using the trial wave function $\Psi _{T2}$. This was calculated with a step size for both $\alpha $ and $\beta $ equal to $0.005$ for the whole grid, with $10^8$ Monte Carlo cycles. The optimal value for $\alpha $ and $\beta $ were fond to be $\alpha =0.995(5)$ and $\beta =0.280(5)$ respectively, resulting in an energy of $3.7302(5)$ a.u. The uncertainties in $\alpha $ and $\beta $ come from the resolution of the grid, while the uncertainty in the energy is from the standard deviation of the sampled expectation values.}}{7}{}}
+\newlabel{fig:3D}{{9}{7}{}{}{}}
+\newlabel{18@xvr}{{}{7}}
+\newlabel{18@vr}{{}{7}}
+\@writefile{lot}{\contentsline {table}{\numberline {II}{\ignorespaces The expectation value of the energy and the distance between the two electrons is displayed for different characteristic frequencies $\omega $ of the oscillator potential, using the trial wave function $\Psi _{T2}$ and the interacting Hamiltonian. To achieve these values we used the optimal value of $\alpha $ and $\beta $ found for each case, $\alpha =0.995$ and $\beta =0.280$ with $10^{8}$ Monte Carlo cycles. The value for $E$ is the analytical energy found by M. Taut \cite  {taut}. We observe an increase in the energy as $\omega $ increases. In addition the expectation value of the electrons distance from each other becomes smaller as $\omega $ increases. The upper bound of the energy is close to the analytical energy, while always being greater. The uncertainty in the values are calculated from the standard deviation of the expectation values.}}{8}{}}
+\newlabel{table:omega_2}{{II}{8}{}{}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {E}The virial theorem}{8}{}}
+\newlabel{19@xvr}{{}{8}}
+\newlabel{19@vr}{{}{8}}
+\newlabel{20@xvr}{{}{8}}
+\newlabel{20@vr}{{}{8}}
+\@writefile{toc}{\contentsline {section}{\numberline {VI}Discussion}{8}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {A}Equilibration and benchmarking}{8}{}}
+\newlabel{21@xvr}{{}{8}}
+\newlabel{21@vr}{{}{8}}
+\newlabel{22@xvr}{{}{8}}
+\newlabel{22@vr}{{}{8}}
+\@writefile{lof}{\contentsline {figure}{\numberline {10}{\ignorespaces The expectation value of the potential energy divided by the expectation value of the kinetic energy is shown as a function of the characteristic frequency of the oscillator $\omega $ for the interacting and noninteracting Hamiltonians. This is calculated using $\Psi _{T1}$ for the noninteracting case, with $\alpha =1.00$, and $\Psi _{T2}$ for the interacting case, with $\alpha =0.995$ and $\beta =0.280$ with $10^{8}$ Monte Carlo cycles. We observe that the relationship is independent of $\omega $, and always equal to $1$, for the noninteracting Hamiltonian. The relationship is decreasing as $\omega $ increases for the interacting Hamiltonian, always being larger than for the noninteracting Hamiltonian.}}{8}{}}
+\newlabel{fig:virial}{{10}{8}{}{}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {11}{\ignorespaces The expectation value of the potential energy contribution from the harmonic oscillator (HO) and Coulomb repulsion (C) is displayed relative to the expectation value of the kinetic energy as a function of the characteristic frequency $\omega $ of the oscillator. This is calculated using $\Psi _{T2}$ as the trial wave function with the optimal values for the variational parameters, $\alpha =0.995$ and $\beta =0.280$, and an interacting Hamiltonian with $10^{8}$ Monte Carlo cycles. We observe the harmonic oscillator term being approximately constant for different values of $\omega $, while the potential energy resulting from the Coulomb interaction is decreasing relative to the kinetic energy.}}{8}{}}
+\newlabel{fig:H0_vs_C}{{11}{8}{}{}{}}
+\newlabel{23@xvr}{{}{9}}
+\newlabel{23@vr}{{}{9}}
+\newlabel{24@xvr}{{}{9}}
+\newlabel{24@vr}{{}{9}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {B}The optimal step length}{9}{}}
+\newlabel{25@xvr}{{}{9}}
+\newlabel{25@vr}{{}{9}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {C}The first trial wave function $\bm  {\Psi _{T1}}$}{9}{}}
+\newlabel{26@xvr}{{}{9}}
+\newlabel{26@vr}{{}{9}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {D}Average distance}{9}{}}
+\newlabel{27@xvr}{{}{9}}
+\newlabel{27@vr}{{}{9}}
+\citation{taut}
+\citation{Hjorten}
+\@writefile{toc}{\contentsline {subsection}{\numberline {E}Comparing the trial wave functions}{10}{}}
+\newlabel{28@xvr}{{}{10}}
+\newlabel{28@vr}{{}{10}}
+\newlabel{29@xvr}{{}{10}}
+\newlabel{29@vr}{{}{10}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {F}The virial theorem}{10}{}}
+\@writefile{toc}{\contentsline {section}{\numberline {VII}Conclusion}{10}{}}
+\bibdata{rapportNotes,citations.bib}
+\bibcite{rapport2}{{1}{}{{}}{{}}}
+\bibcite{klasmek}{{2}{}{{}}{{}}}
+\bibcite{kvaal}{{3}{}{{}}{{}}}
+\bibcite{Hjorten}{{4}{}{{}}{{}}}
+\bibcite{Q_DOTS}{{5}{}{{}}{{}}}
+\bibcite{squires}{{6}{}{{}}{{}}}
+\bibcite{taut}{{7}{}{{}}{{}}}
+\@writefile{toc}{\contentsline {section}{\numberline {VIII}Comments}{11}{}}
+\@writefile{toc}{\contentsline {section}{\numberline {IX}Acknowledgements}{11}{}}
+\@writefile{toc}{\contentsline {section}{\numberline {}References}{11}{}}
+\newlabel{LastBibItem}{{7}{11}{}{}{}}
+\@writefile{toc}{\appendix }
+\@writefile{toc}{\contentsline {section}{\numberline {A}Deriving the variational method}{11}{}}
+\newlabel{sec:appendix}{{A}{11}{}{}{}}
+\@writefile{toc}{\contentsline {section}{\numberline {B}Local energy $\bm  {\Psi _{T1}}$}{12}{}}
+\newlabel{sec:appendix_trial_1}{{B}{12}{}{}{}}
+\@writefile{toc}{\contentsline {section}{\numberline {C}Local energy $\bm  {\Psi _{T2}}$}{12}{}}
+\newlabel{sec:appendix_trial_2}{{C}{12}{}{}{}}
+\newlabel{first}{{C11}{13}{}{}{}}
+\newlabel{second}{{C15}{14}{}{}{}}
+\bibstyle{plain}
+\providecommand\NAT@force@numbers{}\NAT@force@numbers
+\newlabel{LastPage}{{}{15}{}{}{}}
